@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp"
+    android:gravity="center_vertical">
+
+
+    <EditText
+
+        android:id="@+id/editText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="25dp"
+        android:hint="Enter your Gmail"
+        android:textSize="25dp"
+
+         />
+
+    <EditText
+        android:layout_gravity="center"
+        android:id="@+id/editText2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Password"
+        android:layout_marginBottom="40dp"
+        android:textSize="25dp"
+        />
+     <Button
+         android:id="@+id/button2"
+         android:layout_width="150dp"
+         android:layout_height="50dp"
+         android:layout_gravity="center"
+         android:hint="Login"
+         android:textSize="25dp"
+         android:textAlignment="center"
+         android:layout_marginBottom="20dp"
+         />
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Please login"
+        android:textSize="25dp"/>
+
+</LinearLayout>
